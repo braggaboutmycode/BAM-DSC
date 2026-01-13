@@ -1448,7 +1448,7 @@ Configuration Windows11_STIG_V2R4 {
         }
         SecurityOption 'V-253444 (MEDIUM) The machine inactivity limit must be set to 15 minutes, locking the system with the screensaver.' {
             Name = 'V-253444 (MEDIUM) The machine inactivity limit must be set to 15 minutes, locking the system with the screensaver.'
-            Interactive_logon_Machine_inactivity_limit = "15"
+            Interactive_logon_Machine_inactivity_limit = "900"
         }
         SecurityOption 'V-253443 (MEDIUM) The system must be configured to require a strong session key.' {
             Name = 'V-253443 (MEDIUM) The system must be configured to require a strong session key.'
